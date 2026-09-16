@@ -1,0 +1,80 @@
+[
+  {
+    "id": "1",
+    "title": "Fluffy Blueberry Pancakes",
+    "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600",
+    "description": "Light, fluffy pancakes packed with juicy blueberries.",
+    "rating": 4.7,
+    "category": "Breakfast",
+    "difficulty": "Easy",
+    "time": 20,
+    "ingredients": ["2 cups flour", "2 tbsp sugar", "2 tsp baking powder", "2 eggs", "1.5 cups milk", "1 cup blueberries"],
+    "instructions": ["Mix dry ingredients in a bowl.", "Whisk eggs and milk, then combine with dry mix.", "Fold in blueberries.", "Cook on a hot griddle until golden on both sides.", "Serve warm with syrup."],
+    "author": "chef_maria"
+  },
+  {
+    "id": "2",
+    "title": "Vegan Chickpea Curry",
+    "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600",
+    "description": "A rich and creamy plant-based curry ready in under an hour.",
+    "rating": 4.5,
+    "category": "Vegan",
+    "difficulty": "Medium",
+    "time": 40,
+    "ingredients": ["2 cans chickpeas", "1 onion", "3 garlic cloves", "1 can coconut milk", "2 tbsp curry powder", "1 can diced tomatoes"],
+    "instructions": ["Saute onion and garlic until soft.", "Add curry powder and cook for a minute.", "Stir in tomatoes and coconut milk.", "Add chickpeas and simmer for 20 minutes.", "Serve over rice."],
+    "author": "green_kitchen"
+  },
+  {
+    "id": "3",
+    "title": "Classic Chocolate Brownies",
+    "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600",
+    "description": "Fudgy, rich brownies with a crackly top.",
+    "rating": 4.9,
+    "category": "Desserts",
+    "difficulty": "Easy",
+    "time": 45,
+    "ingredients": ["1 cup butter", "2 cups sugar", "4 eggs", "1 cup cocoa powder", "1.5 cups flour", "1 tsp vanilla"],
+    "instructions": ["Melt butter and mix with sugar.", "Beat in eggs and vanilla.", "Fold in cocoa powder and flour.", "Pour into a greased pan.", "Bake at 350F for 30 minutes."],
+    "author": "sweet_tooth"
+  },
+  {
+    "id": "4",
+    "title": "Grilled Chicken Caesar Salad",
+    "image": "https://images.unsplash.com/photo-1546793665-c74683f339c1?w=600",
+    "description": "A protein-packed classic salad with a tangy dressing.",
+    "rating": 4.4,
+    "category": "Lunch",
+    "difficulty": "Easy",
+    "time": 25,
+    "ingredients": ["2 chicken breasts", "1 romaine lettuce", "0.5 cup parmesan", "1 cup croutons", "Caesar dressing"],
+    "instructions": ["Grill chicken until fully cooked.", "Chop lettuce and place in a bowl.", "Slice chicken and add to the bowl.", "Top with parmesan and croutons.", "Drizzle with Caesar dressing and toss."],
+    "author": "healthy_eats"
+  },
+  {
+    "id": "5",
+    "title": "Creamy Mushroom Risotto",
+    "image": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=600",
+    "description": "A comforting Italian classic, slow-cooked to creamy perfection.",
+    "rating": 4.6,
+    "category": "Dinner",
+    "difficulty": "Hard",
+    "time": 50,
+    "ingredients": ["1.5 cups arborio rice", "4 cups vegetable stock", "2 cups mushrooms", "1 onion", "0.5 cup parmesan", "0.5 cup white wine"],
+    "instructions": ["Saute onion and mushrooms until golden.", "Add rice and toast for 2 minutes.", "Pour in wine and let it absorb.", "Add stock a ladle at a time, stirring often.", "Finish with parmesan and serve."],
+    "author": "chef_maria"
+  },
+  {
+    "id": "6",
+    "title": "Vegan Banana Oat Muffins",
+    "image": "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?w=600",
+    "description": "Naturally sweetened muffins, perfect for a quick breakfast.",
+    "rating": 4.3,
+    "category": "Vegan",
+    "difficulty": "Easy",
+    "time": 30,
+    "ingredients": ["3 ripe bananas", "1.5 cups oats", "0.25 cup maple syrup", "1 tsp baking soda", "0.5 cup almond milk"],
+    "instructions": ["Mash bananas in a large bowl.", "Stir in maple syrup and almond milk.", "Fold in oats and baking soda.", "Spoon into muffin cups.", "Bake at 375F for 18-20 minutes."],
+    "author": "green_kitchen"
+  }
+]
