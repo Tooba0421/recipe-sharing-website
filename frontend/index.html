@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Recipe Hub - Home</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="logo">🍲 Recipe Hub</a>
+  <nav class="main-nav">
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="browse.html">Browse Recipes</a></li>
+      <li><a href="submit.html">Submit Recipe</a></li>
+      <li><a href="login.html" id="navUserLink">User Profile</a></li>
+    </ul>
+  </nav>
+  <form class="search-bar" id="homeSearchForm">
+    <input type="text" id="homeSearchInput" placeholder="Search by title or ingredient..." />
+    <button type="submit">Search</button>
+  </form>
+</header>
+
+<section class="banner">
+  <h1>Discover & Share Delicious Recipes</h1>
+  <p>Browse thousands of home-cooked recipes or share your own creation with our community of food lovers.</p>
+  <div class="cta-group">
+    <a href="browse.html" class="btn btn-primary">Browse Recipes</a>
+    <a href="submit.html" class="btn btn-outline">Submit a Recipe</a>
+  </div>
+</section>
+
+<h2 class="section-title">Featured Categories</h2>
+<div class="categories-grid">
+  <a href="browse.html?category=Breakfast" class="category-card">
+    <span class="category-icon">🥞</span> Breakfast
+  </a>
+  <a href="browse.html?category=Vegan" class="category-card">
+    <span class="category-icon">🥗</span> Vegan
+  </a>
+  <a href="browse.html?category=Desserts" class="category-card">
+    <span class="category-icon">🍰</span> Desserts
+  </a>
+  <a href="browse.html?category=Lunch" class="category-card">
+    <span class="category-icon">🥪</span> Lunch
+  </a>
+  <a href="browse.html?category=Dinner" class="category-card">
+    <span class="category-icon">🍝</span> Dinner
+  </a>
+</div>
+
+<footer class="site-footer">
+  &copy; 2026 Recipe Hub. All rights reserved.
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/nav.js"></script>
+<script>
+  document.getElementById('homeSearchForm').addEventListener('submit', (e) => {
+    e.preventDefault();
+    const q = document.getElementById('homeSearchInput').value.trim();
+    window.location.href = 'browse.html' + (q ? ('?search=' + encodeURIComponent(q)) : '');
+  });
+</script>
+</body>
+</html>

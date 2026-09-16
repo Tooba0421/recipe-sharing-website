@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Recipe Hub - Browse Recipes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="logo">🍲 Recipe Hub</a>
+  <nav class="main-nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="browse.html" class="active">Browse Recipes</a></li>
+      <li><a href="submit.html">Submit Recipe</a></li>
+      <li><a href="login.html" id="navUserLink">User Profile</a></li>
+    </ul>
+  </nav>
+  <form class="search-bar" id="browseSearchForm">
+    <input type="text" id="browseSearchInput" placeholder="Search by title or ingredient..." />
+    <button type="submit">Search</button>
+  </form>
+</header>
+
+<main class="page-container">
+  <h1 class="page-heading">Browse Recipes</h1>
+
+  <div class="filters">
+    <select id="categoryFilter">
+      <option value="All">All Categories</option>
+      <option value="Breakfast">Breakfast</option>
+      <option value="Vegan">Vegan</option>
+      <option value="Desserts">Desserts</option>
+      <option value="Lunch">Lunch</option>
+      <option value="Dinner">Dinner</option>
+    </select>
+
+    <select id="timeFilter">
+      <option value="">Any Time</option>
+      <option value="15">Under 15 min</option>
+      <option value="30">Under 30 min</option>
+      <option value="45">Under 45 min</option>
+      <option value="60">Under 60 min</option>
+    </select>
+  </div>
+
+  <div class="recipe-grid" id="recipeGrid">
+    <p class="empty-state">Loading recipes...</p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  &copy; 2026 Recipe Hub. All rights reserved.
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/browse.js"></script>
+</body>
+</html>

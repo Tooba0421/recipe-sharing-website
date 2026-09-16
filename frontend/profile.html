@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Recipe Hub - User Profile</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="logo">🍲 Recipe Hub</a>
+  <nav class="main-nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="browse.html">Browse Recipes</a></li>
+      <li><a href="submit.html">Submit Recipe</a></li>
+      <li><a href="login.html" class="active" id="navUserLink">User Profile</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="page-container">
+  <h1 class="page-heading">User Profile</h1>
+
+  <div class="profile-card" id="profileCard">
+    <p class="empty-state">You are not logged in.</p>
+    <a href="login.html" class="btn btn-primary">Go to Login</a>
+  </div>
+</main>
+
+<footer class="site-footer">
+  &copy; 2026 Recipe Hub. All rights reserved.
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/profile.js"></script>
+</body>
+</html>
